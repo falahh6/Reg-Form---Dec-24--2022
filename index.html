@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
+    <!-- <script src="/script.js" defer></script> -->
+</head>
+
+<body>
+    <header>
+        <img src="/res/Developers Students Club, AIMCA.png" alt="IT Club,logo" id="logo">
+        <h1>Students IT club </h1>
+        <p> Aimca, Bhatkal</p>
+    </header>
+    <main>
+        <div id="hero-page">
+            <h1> <span id="top-heading">IT Club Workshop,</span><br> <span>Boost Your Professional Skills with
+                    LinkedIn and Git/GitHub.</span>
+            </h1>
+            <p>Join us for a comprehensive workshop on LinkedIn and Git/GitHub, led by our student IT Club. Learn how to
+                effectively use these valuable tools to boost your professional development and stand out in today's job
+                market. Registrations open to all college students.</p>
+            <button id="button"><a href="#registration-page">Register here</a></button>
+        </div>
+        <div id="registration-page">
+            <h1>Join us for the Workshop: Register Now</h1>
+            <form action="https://formspree.io/f/mdovnprp" method="POST">
+                <div id="nname">
+                    <label for="name">Enter your name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div id="name-reg">
+                    <div id="reg">
+                        <label for="reg">Enter your register no.</label>
+                        <input type="text" name="reg" name="reg" required>
+                    </div>
+                    <div id="class">
+                        <label for="class">Which class are you in?</label>
+                        <select name="class" id="class" required>
+                            <option value="1st-year">BCA I</option>
+                            <option value="2st-year">BCA II</option>
+                            <option value="3st-year">BCA III</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="eemail">
+                    <label for="email">Enter your email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <button type="submit" id="submit-button">Register now</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <footer>
+            <p>Copywrite @Students IT Club, Aimca / Designed & Developed by <a href="www.falahh.me" id="falah">Falah</a>
+            </p>
+        </footer>
+    </footer>
+</body>
+
+</html>

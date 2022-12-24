@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Unbounded&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+#logo {
+    width: 4rem;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 20px;
+}
+
+header p {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+body {
+    background: linear-gradient(to top, #2980b9, #6dd5fa, #ffffff);
+    margin: 0;
+    transition: background-color 0.6s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body.scrolled {
+    background-color: #0c1e21;
+} */
+
+#hero-page {
+    height: 70vh;
+    /* text-align: center; */
+    margin: auto;
+    margin-top: 8rem;
+    width: 80%;
+    /* color: #204e56; */
+}
+
+#hero-page h1 {
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: 0;
+    color: #4a4a4a;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+#hero-page h1 span {
+    font-size: 32px;
+}
+
+#top-heading {
+    color: #eeb30d;
+}
+
+#hero-page p {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+#button,
+#submit-button {
+    padding: 15px;
+    border: none;
+    background-color: #6dd5fa;
+}
+
+#submit-button {
+    background-color: #ffffff;
+}
+
+#button:hover,
+#submit-button:hover {
+    border-bottom: 2px solid white;
+}
+
+#button a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+#registration-page {
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    padding-top: 8rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form select {
+    padding: 10px;
+    border: none;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.321);
+}
+
+input:hover,
+select:hover,
+select:focus-visible,
+input:focus-visible {
+    outline: 1px solid #ffffff;
+    box-shadow: -1px 1px 10px rgb(252, 252, 252);
+}
+
+#email {
+    width: 52.6%;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+
+form button {
+    width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid transparent;
+}
+
+#submit-button:hover {
+    border-bottom: 2px solid black;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+#nname {
+    width: 50%;
+    margin-right: 0;
+}
+
+#email {
+    width: 50%;
+}
+
+#eemail {
+    margin-top: 0;
+}
+
+#reg {
+    width: 25%;
+}
+
+#class {
+    margin-left: 2rem;
+    width: 49%;
+}
+
+#class select {
+    margin-left: 0;
+    font-size: 11px;
+}
+
+#name-reg {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    text-align: center;
+    color: aliceblue;
+}
+
+#falah {
+    text-decoration: none;
+    color: #eeb30d;
+    border-bottom: 1px solid #eeb30d;
+}
