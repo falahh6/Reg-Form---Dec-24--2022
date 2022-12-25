@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 * {
     scroll-behavior: smooth;
@@ -66,6 +67,7 @@ body {
     text-align: left;
     font-size: 16px;
     margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #button,
@@ -94,7 +96,11 @@ body {
     height: 100vh;
     width: 80%;
     margin: auto;
-    padding-top: 8rem;
+    padding-top: 5rem;
+}
+
+#registration-page h1 {
+    font-size: 25px;
 }
 
 form {
@@ -149,7 +155,7 @@ form div {
 }
 
 #eemail {
-    width: 100%;
+    width: 50%;
     margin-top: 0;
 }
 
@@ -159,7 +165,7 @@ form div {
 
 #cclass {
     margin-left: 2rem;
-    width: 49%;
+    width: 24%;
 }
 
 #class select {
@@ -176,6 +182,8 @@ form div {
 footer {
     text-align: center;
     color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 
 #falah {
@@ -207,6 +215,11 @@ footer {
 
     #hero-page h1 {
         font-size: 20px;
+        line-height: normal;
+    }
+
+    #hero-page p {
+        font-size: 12px;
     }
 
     #hero-page h1 span {
@@ -220,20 +233,20 @@ footer {
     }
 
     #registration-page h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
-    /* 
-    footer {
-        display: none;
-    } */
+    label {
+        color: rgb(39, 39, 39);
+        font-size: 12px;
+    }
 
     #nname {
         width: 80%;
     }
 
     #cclass {
-        width: 85%;
+        width: 86%;
         margin-left: 0;
     }
 
