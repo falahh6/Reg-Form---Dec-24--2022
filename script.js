@@ -1,9 +1,8 @@
-window.addEventListener('scroll', function () {
-    var scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
+let textToChangeElement = document.getElementById('text-to-change');
 
-    if (scrollTop > 500) {
-        document.body.style.background = 'linear-gradient(to top, #2980b9, #6dd5fa, #ffffff)';
-    } else {
-        document.body.style.backgroundColor = '#ffffff';
-    }
-});
+function updateText() {
+    let currentText = textToChangeElement.innerHTML;
+    let nextText = 'Git/Github';
+    currentText.innerHTML = nextText;
+}
+setInterval(updateText, 3000);
