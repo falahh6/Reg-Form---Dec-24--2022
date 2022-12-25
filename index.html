@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-select=no">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Registration</title>
+    <link rel="shortcut icon" href="/res/Developers Students Club, AIMCA.png" type="image/x-icon">
     <script src="/script.js" defer></script>
 
 </head>
@@ -21,17 +22,18 @@
     </header>
     <main>
         <div id="hero-page">
-            <h1> <span id="top-heading">IT Club Workshop,</span><br> <span>Boost Your Professional Skills with
-                    LinkedIn & Git/GitHub.</span>
+            <h1> <span id="top-heading">IT Club Workshop,</span><br> <span>Boost Your Professional Skills with "<span
+                        id="text-to-change"> LinkedIn</span>" </span>
             </h1>
             <p>Join us for a comprehensive workshop on LinkedIn and Git/GitHub, led by our student IT Club. Learn how to
                 effectively use these valuable tools to boost your professional development and stand out in today's job
                 market. Registrations open to all college students.</p>
             <p id="location">
-                <span class="material-symbols-outlined">
-                    location_on
-                </span>
-                Seminar Hall, AIMCA, Bhatkal
+                <a href="https://maps.app.goo.gl/bFgFEnxayF82k7hX7">
+                    <span class="material-symbols-outlined">
+                        location_on
+                    </span>Seminar Hall, AIMCA, Bhatkal
+                </a>
             </p>
             <button id="button"><a href="#registration-page">Register here</a></button>
         </div>
@@ -50,9 +52,12 @@
                     <div id="cclass">
                         <label for="class">Which class are you in?</label>
                         <select name="class" id="class" required>
-                            <option value="1st-year">BCA I</option>
-                            <option value="2st-year">BCA II</option>
-                            <option value="3st-year">BCA III</option>
+                            <option value="BCA-1st-year">BCA I</option>
+                            <option value="BCA-2nd-year">BCA II</option>
+                            <option value="BCA-3rd-year">BCA III</option>
+                            <option value="BBA-1st-year">BBA I</option>
+                            <option value="BBA-2nd-year">BBA II</option>
+                            <option value="BBA-3rd-year">BBA III</option>
                         </select>
                     </div>
                 </div>
@@ -66,9 +71,7 @@
     </main>
     <footer>
         <footer>
-            <p>&copy; Students IT Club, Aimca <br> / Designed & Developed by <a href="https://www.falahh.me"
-                    id="falah">Falah</a>
-            </p>
+            <p>&copy; Students IT Club, Aimca</p>
         </footer>
     </footer>
 </body>
