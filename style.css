@@ -68,6 +68,14 @@ body {
     margin-top: 0;
 }
 
+#location {
+    display: flex;
+    align-items: center;
+    color: #8c6a0e;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
 #button,
 #submit-button {
     padding: 15px;
