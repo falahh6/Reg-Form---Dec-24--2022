@@ -6,7 +6,6 @@
 
 #logo {
     width: 4rem;
-
 }
 
 header {
@@ -117,6 +116,7 @@ select:focus-visible,
 input:focus-visible {
     outline: 1px solid #ffffff;
     box-shadow: -1px 1px 10px rgb(252, 252, 252);
+    background-color: rgb(252, 252, 252);
 }
 
 
@@ -185,6 +185,20 @@ footer {
 }
 
 @media screen and (max-width:767px) {
+    #logo {
+        width: 3rem;
+    }
+
+    header h1 {
+        font-size: 16px;
+    }
+
+    header p {
+        font-size: 12px;
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+
     #hero-page {
         /* margin-top: 20rem; */
         width: 70%;
@@ -192,13 +206,21 @@ footer {
     }
 
     #hero-page h1 {
-        /* font-size: 90px; */
+        font-size: 20px;
+    }
+
+    #hero-page h1 span {
+        font-size: 22px;
     }
 
     #registration-page {
         width: 70%;
         height: 75vh;
         padding-top: 8rem;
+    }
+
+    #registration-page h1 {
+        font-size: 25px;
     }
 
     /* 
@@ -228,6 +250,6 @@ footer {
     }
 
     #submit-button {
-        width: 30%;
+        width: 40%;
     }
 }
