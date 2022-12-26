@@ -116,7 +116,9 @@ header p {
     width: 80%;
     margin: auto;
     padding-top: 5rem;
+    margin-bottom: 3rem;
 }
+
 
 #registration-page h1 {
     font-size: 25px;
@@ -151,6 +153,7 @@ label {
 }
 
 
+
 form button {
     width: 20%;
     text-align: center;
@@ -162,6 +165,7 @@ form button {
 #submit-button:hover {
     border-bottom: 2px solid black;
 }
+
 
 form div {
     display: flex;
@@ -193,6 +197,10 @@ form div {
     font-size: 11px;
 }
 
+#class {
+    height: 34.5px;
+}
+
 #name-reg {
     margin-top: 0;
     display: flex;
@@ -206,13 +214,13 @@ footer {
     font-size: 12px;
 }
 
-#falah {
+/* #falah {
     text-decoration: none;
     color: #eeb30d;
     border-bottom: 1px solid #eeb30d;
-}
+} */
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:400px) {
     #logo {
         width: 3rem;
     }
@@ -246,6 +254,10 @@ footer {
         font-size: 22px;
     }
 
+    form {
+        width: 90%;
+    }
+
     #registration-page {
         width: 70%;
         height: 75vh;
@@ -262,27 +274,34 @@ footer {
     }
 
     #nname {
-        width: 80%;
+        width: 100%;
     }
 
     #cclass {
-        width: 86.5%;
+        padding-top: 10px;
+        width: 100%;
         margin-left: 0;
     }
 
+    #class {
+        width: 108%;
+    }
+
     #reg {
-        width: 80%;
+        width: 100%;
     }
 
     #eemail {
-        width: 80%;
+        width: 100%;
     }
 
     #name-reg {
         display: block;
+        margin-bottom: 8px;
     }
 
     #submit-button {
-        width: 40%;
+        width: 108%;
+        text-align: center;
     }
 }

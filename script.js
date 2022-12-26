@@ -1,5 +1,5 @@
 let textToChangeElement = document.getElementById('text-to-change');
-let textArray = ['Git', 'GitHub', 'LinkedIn'];
+let textArray = ['GitHub', 'LinkedIn', 'Git'];
 let counter = 0;
 
 function updateText() {
