@@ -212,6 +212,8 @@ footer {
     color: aliceblue;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
+    position: relative;
+    bottom: 0px;
 }
 
 /* #falah {
@@ -260,8 +262,8 @@ footer {
 
     #registration-page {
         width: 70%;
-        height: 75vh;
-        padding-top: 8rem;
+        height: 70vh;
+        padding-top: 6rem;
     }
 
     #registration-page h1 {
