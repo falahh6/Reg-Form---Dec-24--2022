@@ -236,7 +236,7 @@ footer {
     border-bottom: 1px solid #eeb30d;
 } */
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     #logo {
         width: 3rem;
     }
